@@ -21,3 +21,19 @@ h1 {
     border-radius: 10px 10px 10px 10px;
     background-color: #7289da;
 }
+
+input[type=button] {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #7289da;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', monospace;
+    border-color: #7289da;
+    border-style: solid;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+input[type=button]:hover {
+    background-color: #7D92dd;
+}
