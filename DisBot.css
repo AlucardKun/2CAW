@@ -8,6 +8,12 @@ h1 {
     padding: 60px;
 }
 
-.primary-title {
+.card {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.card-title {
+    padding: 5px;
     background-color: #7289da;
 }
