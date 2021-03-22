@@ -22,7 +22,8 @@ h1 {
     background-color: #7289da;
 }
 
-.align-center {
+.container {
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
