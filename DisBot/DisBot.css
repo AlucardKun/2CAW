@@ -9,9 +9,10 @@ h1 {
 }
 
 .card {
-    max-width: 300px;
+    min-width: 300px;
+    max-width: 500px;
     max-height: 300px;
-    background-color: #1e1e1e;
+    background-color: #232527;
     border-radius: 10px 10px 10px 10px;
     padding: 10px;
 }
@@ -46,4 +47,15 @@ input[type=button] {
 
 input[type=button]:hover {
     background-color: #7D92dd;
+}
+
+input[type=text] {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', monospace;
+    border-color: #7289da;
+    border-style: solid;
+    text-decoration: none;
 }
