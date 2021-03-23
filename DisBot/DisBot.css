@@ -22,6 +22,10 @@ h1 {
     background-color: #7289da;
 }
 
+.card-title>span {
+    padding-top: 7px;
+}
+
 .container {
     width: 100%;
     text-align: center;
