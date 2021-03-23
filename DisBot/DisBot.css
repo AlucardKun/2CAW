@@ -22,8 +22,9 @@ h1 {
     background-color: #7289da;
 }
 
-.card-title>span {
-    padding-top: 7px;
+.card-title>div {
+    margin-top: 20px;
+    float: right;
 }
 
 .container {
