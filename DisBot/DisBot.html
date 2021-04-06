@@ -14,18 +14,6 @@
     <body>
 
         <h1>Discord Bot para Estudos</h1>
-
-        <div class="card">
-            <div class="card-title">
-                <img src="imgs/discord.jpg" alt="Discord Bot" width="100" />
-                <div>Exemplo de Título</div>
-            </div>
-
-            <p>
-                Teste de parágrafo com com fonte padrão branca.
-            </p>
-            <input type="button" onclick="alertaTeste()" value="Alerta Teste" />
-        </div>
         <br>
 
         <form>
@@ -38,17 +26,21 @@
 
                 <p>
                     <label for="disciplinca">Disciplina:</label>
-                    <input type="text" id="disciplinca" name="disciplina" style="text-transform: uppercase;"> <br>
+                    <input type="text" id="disciplina" name="disciplina" style="text-transform: uppercase;" maxlength="4"> <br>
+                    <br>
 
                     <label for="turno">Turno:</label>
-                    <input type="radio" name="turno" value="M"> Manhã
-                    <input type="radio" name="turno" value="T"> Tarde
-                    <input type="radio" name="turno" value="N"> Noite
+                    <input type="radio" name="turno" id="turno" value="M"> Manhã
+                    <input type="radio" name="turno" id="turno" value="T"> Tarde
+                    <input type="radio" name="turno" id="turno" value="N"> Noite
+
+                    <br><br>
+
+                    <label for="professor">Professor:</label>
+                    <input type="text" name="professor" id="professor" placeholder="Nome do Professor" />
                 </p>
                 <input type="button" onclick="cadastrarTurma()" value="Cadastrar" />
             </div>
-
-
 
 
         </form>
