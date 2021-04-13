@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initialscale=1.0">
+
     <title>Disbot</title>
 
     <head>
@@ -11,6 +13,16 @@
     </head>
 
     <body>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Turmas</a></li>
+                <li><a href="#">Provas</a></li>
+                <li><a href="#">Testes</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
 
         <h1>Discord Bot para Estudos</h1><br>
 
@@ -28,9 +40,14 @@
                     <br>
 
                     <label for="turno">Turno:</label>
-                    <input type="radio" name="turno" id="turno" value="M" aria-texto="Manhã"> Manhã
-                    <input type="radio" name="turno" id="turno" value="T" aria-texto="Tarde"> Tarde
-                    <input type="radio" name="turno" id="turno" value="N" aria-texto="Noite"> Noite
+                    <input type="radio" class="radio-custom" name="turno" id="radioTunrnoM" value="M" aria-texto="Manhã">
+                    <label for="radioTunrnoM" class="radio-custom-label">Manhã</label>
+
+                    <input type="radio" class="radio-custom" name="turno" id="radioTunrnoT" value="T" aria-texto="Tarde">
+                    <label for="radioTunrnoT" class="radio-custom-label">Tarde</label>
+
+                    <input type="radio" class="radio-custom" name="turno" id="radioTunrnoN" value="N" aria-texto="Noite">
+                    <label for="radioTunrnoN" class="radio-custom-label">Noite</label>
 
                     <br><br>
 

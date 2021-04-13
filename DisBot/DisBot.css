@@ -33,6 +33,10 @@ h1 {
     text-align: center;
 }
 
+input {
+    outline: none;
+}
+
 input[type=button] {
     border-radius: 5px;
     padding: 5px;
@@ -57,5 +61,91 @@ input[type=text] {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', monospace;
     border-color: #7289da;
     border-style: solid;
+    text-decoration: none;
+}
+
+input[type=text]:focus {
+    border-color: #c8d1f1;
+}
+
+
+/* Radio buttons e Checkboxes */
+
+.checkbox-custom,
+.radio-custom {
+    opacity: 0;
+    position: absolute;
+}
+
+.checkbox-custom,
+.checkbox-custom-label,
+.radio-custom,
+.radio-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.checkbox-custom-label,
+.radio-custom-label {
+    position: relative;
+}
+
+.checkbox-custom+.checkbox-custom-label:before,
+.radio-custom+.radio-custom-label:before {
+    content: '';
+    background: #fff;
+    border: 2px solid #7289da;
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    padding: 2px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.checkbox-custom:checked+.checkbox-custom-label:before {
+    background: #7289da;
+    box-shadow: inset 0px 0px 0px 4px #fff;
+}
+
+.radio-custom+.radio-custom-label:before {
+    border-radius: 50%;
+}
+
+.radio-custom:checked+.radio-custom-label:before {
+    background: #7289da;
+    box-shadow: inset 0px 0px 0px 4px #fff;
+}
+
+.checkbox-custom:focus+.checkbox-custom-label,
+.radio-custom:focus+.radio-custom-label {
+    outline: 1px solid #c8d1f1;
+    /* focus style */
+}
+
+
+/* MENU*/
+
+nav {
+    display: block;
+}
+
+#menu ul {
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    margin: 0px;
+    background-color: #7289da;
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: #ffffff;
     text-decoration: none;
 }
