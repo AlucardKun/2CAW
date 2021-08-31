@@ -66,6 +66,7 @@ input[type=text] {
 
 input[type=text]:focus {
     border-color: #c8d1f1;
+    background-color: #2c2f33;
 }
 
 
